@@ -2,7 +2,11 @@
 To be used with [webcord](https://github.com/SpacingBat3/WebCord).  
 Download the `adblock.theme.css` file to somewhere (you can delete it later).  
 Ensure webcord is closed (not in the system tray).  
-Run `webcord --add-css-theme` and select the file you just downloaded.  
+On Linux:
+Run `webcord --add-css-theme` and select the file you just downloaded  
+or run `webcord --add-css-theme "~/path/to/adblock.theme.css"`  
+On Windows:  
+Run `C:\path\to\webcord.exe --add-css-theme "C:\path\to\adblock.theme.css"`  
 Start Webcord, Ads should now be gone.  
 
 #### Effects
