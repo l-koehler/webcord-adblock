@@ -1,0 +1,21 @@
+/* Hide the user activity thing, it is mostly an ad for steam/spotify */
+div[class^='activityUserPopoutV2'] {
+    display: none !important;
+}
+
+/* Hide customized profile gradients */
+div[class^="userPopoutOuter"] {
+    --profile-gradient-primary-color  : var(--background-secondary-alt)   !important;
+    --profile-gradient-secondary-color: var(--background-secondary-alt)   !important;
+    --profile-gradient-overlay-color  : rgba(0, 0, 0, 0)                  !important;
+    --profile-gradient-button-color   : var(--button-secondary-background) !important;
+    --profile-avatar-border-color     : var(--background-secondary-alt)   !important;
+    --profile-body-background-color   : var(--background-floating)        !important;
+    --profile-body-background-hover   : var(--background-modifier-hover)  !important;
+    --profile-body-divider-color      : var(--background-modifier-accent) !important;
+    --profile-body-border-color       : var(--border-faint)               !important;
+    --profile-message-input-border-color: var(--background-modifier-accent) !important;
+    --profile-note-background-color   : var(--background-tertiary)        !important;
+    --profile-role-pill-background-color: var(--background-secondary-alt) !important;
+    --profile-role-pill-border-color  : var(--interactive-normal)         !important;
+}

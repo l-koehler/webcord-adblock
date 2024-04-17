@@ -69,3 +69,19 @@ div[role="none presentation"] > div:not(:first-child) {
 div[class="container__686c4"] {
     display: none !important;
 }
+
+/* User Profile: Nitro Ad at the bottom */
+div[class^='premiumFeatureBorder'] {
+    display: none !important;
+}
+
+/* Other misc. Nitro/Boost Ads */
+div[class^='premiumTab'] {
+    display: none !important;
+}
+div[aria-label^='Buy Boosts'] {
+    display: none !important;
+}
+div[class^='premiumIconWrapper'] {
+    display: none !important;
+}

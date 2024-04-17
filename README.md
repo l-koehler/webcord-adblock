@@ -8,6 +8,8 @@ or run `webcord --add-css-theme "~/path/to/adblock.theme.css"`
 On Windows:  
 Run `C:\path\to\webcord.exe --add-css-theme "C:\path\to\adblock.theme.css"`  
 Start Webcord, Ads should now be gone.  
+If you want a stricter filter (notably removing user activity), repeat these  
+steps with the `add-strict.theme.css` (in addition to adblock, not replacing)  
 
 #### Effects
 This CSS Theme hides:
@@ -18,10 +20,12 @@ This CSS Theme hides:
 * Custom Avatar Decorations (these mildly obnoxious profile animations)  
 * the "Send Gift" button  
 
-If you instead use the `adblock_with_useractivity.theme.css` file, it will also  
-hide "User Activity", which is mostly advertising spotify or some game.  
-
+If you additionally use the `add-strict.theme.css` file, it will also  
+hide "User Activity", which is mostly advertising spotify or some game,  
+and hide nitro users profile gradients*.  
+*: It still shows the profile theme as light mode  
+if the users profile page has a light theme.  
 #### Remove
 If you want to remove the theme, open `~/.config/WebCord/Themes` and delete  
-the respective `adblock.theme` or `adblock_with_useractivity.theme` file.  
-If you aren't on Linux, the .theme files will be somewhere else, idk.  
+the respective `*.theme` file. If you aren't on Linux,  
+the .theme files will be somewhere else, idk.  
