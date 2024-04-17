@@ -65,3 +65,7 @@ div[role="none presentation"] > div:not(:first-child) {
     display: none !important;
 }
 
+/* User Profile: Valorant Ad (why does this exist) */
+div[class="container__686c4"] {
+    display: none !important;
+}

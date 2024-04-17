@@ -70,3 +70,7 @@ div[class^='activityUserPopoutV2'] {
     display: none !important;
 }
 
+/* User Profile: Valorant Ad */
+div[class="container__686c4"] {
+    display: none !important;
+}
