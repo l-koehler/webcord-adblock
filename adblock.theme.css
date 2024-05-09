@@ -85,3 +85,8 @@ div[aria-label^='Buy Boosts'] {
 div[class^='premiumIconWrapper'] {
     display: none !important;
 }
+
+/* what the fuck are quests why are you telling me to stream some shitty mobile game please burn in hell <3 */
+div[class^="wrapper_a571fb"] {
+    display: none !important;
+}
