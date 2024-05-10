@@ -90,3 +90,8 @@ div[class^='premiumIconWrapper'] {
 div[class^="wrapper_a571fb"] {
     display: none !important;
 }
+
+/* "personalize your notification sounds" NO FUCK OFF I DONT EVEN HAVE NOTIFS ENABLED */
+div[class*="upsellTooltipWrapper"] {
+    display: none !important;
+}
