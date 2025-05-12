@@ -1,3 +1,13 @@
+/**
+ * @name Adblock
+ * @author l-koehler
+ * @authorLink https://github.com/l-koehler
+ * @description Hides nitro, hypesquad, quests and other garbage
+ * @license Unlicense
+ * @version 1.0
+ * @source https://github.com/l-koehler/webcord-adblock
+ */
+
 /* In the DM sidebar, hide ads */
 a[href="/shop"] {
     display: none !important;

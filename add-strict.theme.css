@@ -1,3 +1,13 @@
+/**
+ * @name Adblock (Strict Add-On)
+ * @author l-koehler
+ * @authorLink https://github.com/l-koehler
+ * @description To be used with "Adblock". Hides user activity and profile customization
+ * @license Unlicense
+ * @version 1.0
+ * @source https://github.com/l-koehler/webcord-adblock
+ */
+
 /* Hide the user activity thing, it is mostly an ad for steam/spotify */
 div[class^='activityUserPopoutV2'] {
     display: none !important;
