@@ -85,6 +85,28 @@ div[class^='premiumFeatureBorder'] {
     display: none !important;
 }
 
+/* hides a whole bunch in the profile */
+div[class*='upsell'] {
+    display: none !important;
+}
+
+/* color themes */
+section[class*="basicThemeSelectors"] + section {
+    display: none !important;
+}
+div[class="selectionGroup__6b52d"] {
+    display: none !important;
+}
+
+/* "give your profile a fresh look" */
+div[class^='container__8279f'] {
+    display: none !important;
+}
+/* nameplate nitro ad */
+div.inventory__6980e.none_d125d2.scrollerBase_d125d2 > div:nth-child(2) {
+    display: none !important;
+}
+
 /* Other misc. Nitro/Boost Ads */
 div[class^='premiumTab'] {
     display: none !important;
@@ -95,7 +117,12 @@ div[aria-label^='Buy Boosts'] {
 div[class^='premiumIconWrapper'] {
     display: none !important;
 }
-
+div[aria-label="Merch"] {
+    display: none !important;
+}
+div[aria-label="Merch"] + div {
+    display: none !important;
+}
 /* what the fuck are quests why are you telling me to stream some shitty mobile game please burn in hell <3 */
 div[class^="wrapper_a571fb"] {
     display: none !important;
@@ -103,5 +130,10 @@ div[class^="wrapper_a571fb"] {
 
 /* "personalize your notification sounds" NO FUCK OFF I DONT EVEN HAVE NOTIFS ENABLED */
 div[class*="upsellTooltipWrapper"] {
+    display: none !important;
+}
+
+/* hide who is boosting servers */
+svg[aria-label^="Server Boosting since"] {
     display: none !important;
 }

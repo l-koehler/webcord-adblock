@@ -29,3 +29,8 @@ div[class^="userPopoutOuter"] {
     --profile-role-pill-background-color: var(--background-secondary-alt) !important;
     --profile-role-pill-border-color  : var(--interactive-normal)         !important;
 }
+
+/* same for nameplates */
+div[class*="nameplated"] > div:nth-child(1) {
+    display: none !important;
+}
